@@ -49,10 +49,10 @@ pipeline {
                 //     when { expression { commonPipelineEnvironment.configuration.runStage.FRONTEND_INTEGRATION_TESTS } }
                 //     steps { stageFrontendIntegrationTests script: this }
                 // }
-                stage("Frontend Unit Tests") {
+                /*stage("Frontend Unit Tests") {
                     when { expression { commonPipelineEnvironment.configuration.runStage.FRONTEND_UNIT_TESTS } }
                     steps { stageFrontendUnitTests script: this }
-                }
+                } */
                 // stage("NPM Dependency Audit") {
                 //     when { expression { commonPipelineEnvironment.configuration.runStage.NPM_AUDIT } }
                 //     steps { stageNpmAudit script: this }
